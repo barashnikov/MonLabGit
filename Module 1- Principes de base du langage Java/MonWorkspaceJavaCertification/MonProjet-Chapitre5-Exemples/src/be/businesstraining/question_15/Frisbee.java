@@ -1,0 +1,30 @@
+package be.businesstraining.question_15;
+
+import java.io.IOException;
+
+//import java.io.IOException;
+
+public class Frisbee {
+
+//	public static void main(String[] args) {
+	public static void main(String[] args) {
+		int x = 0;
+		//System.out.println(7 / x);
+
+		try {
+			go();
+		} catch (Exception e) {
+			System.out.println(" ======  Dans le catch du main");
+		}
+		System.out.println("Apres Go ");
+
+	}
+
+	private static void go()  {
+		System.out.println("Dans Go ....");		
+		throw new IOException();
+	
+
+	}
+
+}

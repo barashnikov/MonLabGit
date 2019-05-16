@@ -1,0 +1,16 @@
+package be.businesstraining.question_3;
+
+public class _ {
+
+	public static void main(String[] __A_V_) {
+	
+		System.out.println(__A_V_.length);
+		
+		for (int i = 0; ++i < __A_V_.length; ) {
+			
+			System.out.println(__A_V_[i]);
+			
+		}
+	}
+
+}

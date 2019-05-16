@@ -1,0 +1,16 @@
+package be.businesstraining.egalité;
+
+public class Demo_Egalite {
+
+	public static void main(String[] args) {
+		
+		Integer i1 = 128;
+		Integer i2 = 128;
+		System.out.println(" Entiers : "+ (i1==i2));
+
+//		String s1 = "Bonjour";
+//		String s2 = "Bonjour";
+//		System.out.println(" Strings : "+ (s1==s2));
+	}
+
+}

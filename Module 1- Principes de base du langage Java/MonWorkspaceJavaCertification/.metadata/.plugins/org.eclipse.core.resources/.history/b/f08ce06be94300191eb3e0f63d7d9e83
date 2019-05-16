@@ -1,0 +1,15 @@
+package be.businesstraining.enums;
+
+enum Saison {
+    HIVER,
+    PRINTEMPS,
+    ETE,
+    AUTOMNE
+}
+
+public class UtilisationEnum {
+
+	public static void main(String[] args) {
+		Sa
+	}
+}

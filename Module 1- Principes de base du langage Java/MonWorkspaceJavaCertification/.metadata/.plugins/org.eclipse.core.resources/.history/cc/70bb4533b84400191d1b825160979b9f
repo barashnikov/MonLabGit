@@ -1,0 +1,27 @@
+package be.businesstraining.question_12;
+
+class Building {
+	public Building() {
+		System.out.print("b ");
+	}
+	public Building(String name) {
+		this();
+		System.out.print("bn "+ name);
+	}
+}
+public class House  extends Building{
+
+	public House() {
+		System.out.print("h ");
+	}
+	public House(String  name) {
+		super(name);
+	//	this();
+		System.out.print("hn "+ name);
+	}
+	public static void main(String[] args) {
+		new House("x");
+
+	}
+
+}

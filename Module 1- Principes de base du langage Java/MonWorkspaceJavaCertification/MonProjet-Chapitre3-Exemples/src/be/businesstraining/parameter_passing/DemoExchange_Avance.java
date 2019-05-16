@@ -1,0 +1,33 @@
+package be.businesstraining.parameter_passing;
+
+public class DemoExchange_Avance {
+
+	static void exchange( Product a,  Product b) {
+		
+//		Product intermed = a;
+//		a = b;
+//		b = intermed;
+		
+		String c = a.name;
+		a.name = b.name;
+		b.name = c;
+		
+		System.out.println("Dans Echange: " + a.name+ "  "+ b.name);
+	}
+//		String c = a.name;
+//		a.name = b.name;
+//		b.name = c;
+//		System.out.println("Dans Echange: " + a.name+ "  "+ b.name);
+	
+
+	public static void main(String[] args) {	
+		
+		
+		Product x= new Product(); x.name = "Café";
+		Product y= new Product(); y.name = "Thé";
+		exchange(x, y); 
+		System.out.println("x = "+x.name + " y = "+y.name);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package be.businesstraining.question_12;
+
+import java.math.BigDecimal;
+
+public class Compte {
+
+	private String numero;
+	private BigDecimal solde;
+
+	public Compte() {
+		this("TEMPO TO BE CHANGED LATER", BigDecimal.ZERO);
+	}
+
+	public Compte(BigDecimal soldeInitial)	{
+		this("TEMPO TO BE CHANGED LATER", soldeInitial);
+	}
+
+	public Compte(String numero, BigDecimal solde) {
+		super();
+		this.numero = numero;
+		this.solde = solde;
+	}
+
+}

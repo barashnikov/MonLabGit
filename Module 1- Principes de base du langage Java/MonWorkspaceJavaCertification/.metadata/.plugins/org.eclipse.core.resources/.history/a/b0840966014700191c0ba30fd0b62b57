@@ -1,0 +1,12 @@
+package be.businesstraining.arrays;
+
+public class DemoDiamond {
+
+	public static void main(String[] args) {
+		
+		int i = 0b11 ;
+		System.out.println(i);
+
+	}
+
+}

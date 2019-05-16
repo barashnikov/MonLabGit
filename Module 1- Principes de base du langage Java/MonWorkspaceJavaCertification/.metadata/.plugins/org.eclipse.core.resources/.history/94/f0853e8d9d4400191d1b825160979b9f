@@ -1,0 +1,17 @@
+package be.businesstraining.constructor_chaining;
+
+class GrandParent {
+
+}
+
+class Parent {
+
+}
+
+public class Fils {
+
+	public static void main(String[] args) {
+
+	}
+
+}

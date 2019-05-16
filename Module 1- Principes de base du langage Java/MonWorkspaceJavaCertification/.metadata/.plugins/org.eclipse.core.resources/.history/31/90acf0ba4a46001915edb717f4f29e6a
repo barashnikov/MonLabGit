@@ -1,0 +1,13 @@
+package be.businesstraining.question7;
+
+class ParentException extends Exception {};
+class ChildException extends ParentException {};
+
+
+public class Person {
+   public void doStuff() throws ParentException {}
+}
+
+public class Employee extends Person {
+	  public void doStuff() throws ParentException {}
+}

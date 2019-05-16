@@ -1,0 +1,29 @@
+package be.businesstraining.question_53;
+
+public class Triangle {
+	
+	static double area;
+	int b = 0, h= 0;
+
+	public static void main(String[] args) {
+		
+		
+		
+			
+		Short bb = 123;
+		
+		int ii = bb;
+		
+		
+		double p, b,h;
+		if (area == 0) {
+			b = 3;
+			h = 4;
+			p = 0.5;
+		}
+		area = p * b * h ;   // Compile time Error : Variables may not have been initialized !
+		System.out.println("Area = "+ area);
+		
+	}
+
+}

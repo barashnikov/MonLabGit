@@ -1,0 +1,9 @@
+
+public class Message {
+	
+	public String greetMe() {
+		return "Hello ...";
+	}
+
+}
+

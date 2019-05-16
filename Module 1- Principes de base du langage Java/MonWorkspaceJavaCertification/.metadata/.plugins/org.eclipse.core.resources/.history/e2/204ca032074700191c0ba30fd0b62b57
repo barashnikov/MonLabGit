@@ -1,0 +1,19 @@
+package be.businesstraining.custom;
+
+public class DemoCustomLambda {
+
+	public static void main(String[] args) {
+		
+		int resultat = doSomeCalcul((x,y) -> x+y , 10, 20);
+		System.out.println(resultat);
+
+//		Calcul somme = (a, b) -> a + b;
+//		Calcul produit = (a, b) -> a * b;
+//		Calcul division = (a, b) -> a / b;
+	}
+	
+	public static int doSomeCalcul(Calcul op, int x, int y ) {
+		return op.operation(x,y);
+	}
+
+}

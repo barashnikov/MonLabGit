@@ -1,0 +1,22 @@
+package be.businesstraining.question_2;
+
+public class SimpleTypes {
+
+	public static void main(String[] args) {
+		
+		int i = 123;		
+		long l = 1234L;
+		
+		int j = (int)  1234L;
+		
+		byte b1 = 127; // OK puisque 127 tient sur [-128,127]
+		byte b2 = (byte)128;  // Erreur de compilation car 128 ne tient pas sur [-128,127]
+		
+		
+		short s1 = 32767;  // OK puisque on est das [-32768, +32767]
+		short s2 = (short)32768;    //Erreur 
+		System.out.println(s2);
+
+	}
+
+}

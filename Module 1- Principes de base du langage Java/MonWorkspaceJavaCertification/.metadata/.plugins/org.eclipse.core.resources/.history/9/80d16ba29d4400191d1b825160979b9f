@@ -1,0 +1,29 @@
+package be.businesstraining.constructor_chaining;
+
+class GrandParent {
+
+	public GrandParent() {
+		System.out.println(" ****** Dans le constructeur du GRAND PARENT");
+	}
+
+}
+
+class Parent {
+	public Parent() {
+		System.out.println(" ====== Dans le constructeur du PARENT");
+
+	}
+
+}
+
+public class Fils {
+	public Fils() {
+		System.out.println(" >>>>>> Dans le constructeur du FILS");
+
+	}
+
+	public static void main(String[] args) {
+        new Fils();
+	}
+
+}

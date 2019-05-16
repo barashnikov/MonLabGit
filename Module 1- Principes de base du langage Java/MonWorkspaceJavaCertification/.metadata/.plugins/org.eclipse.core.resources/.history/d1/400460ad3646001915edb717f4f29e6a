@@ -1,0 +1,46 @@
+package be.businesstraining.object_comparaison;
+
+class Product {
+	String name;
+	public Product(String name) {
+		this.name = name;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Product other = (Product) obj;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+	
+}
+public class DemoObjectComparaison {
+	public static void main(String[] args) {	
+		
+		Product p1 = new Product("Café");
+		Product p2 = new Product("Café");
+		
+		System.out.println(p1 == p2);
+		
+		System.out.println(p1.equals(p2));
+
+
+	}
+
+}

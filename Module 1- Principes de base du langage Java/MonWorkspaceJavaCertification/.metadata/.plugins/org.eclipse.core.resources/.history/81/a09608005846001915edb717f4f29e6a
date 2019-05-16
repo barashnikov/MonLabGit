@@ -1,0 +1,10 @@
+package be.businesstraining.question_5;
+
+public class Loopy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

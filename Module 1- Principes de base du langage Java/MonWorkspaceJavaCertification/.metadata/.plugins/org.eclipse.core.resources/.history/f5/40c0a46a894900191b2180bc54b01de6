@@ -1,0 +1,10 @@
+package be.businesstraining.question_47;
+
+public class MonMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

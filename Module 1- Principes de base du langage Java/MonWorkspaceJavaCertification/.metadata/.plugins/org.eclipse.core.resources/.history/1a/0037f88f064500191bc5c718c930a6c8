@@ -1,0 +1,32 @@
+package be.businesstraining.parameter_passing;
+
+public class DemoExchange_Avance {
+
+	static void exchange( Product a,  Product b) {
+		String c = a.name;
+		a.name = b.name;
+		b.name = c;
+		System.out.println("Dans Echange: " + a.name+ "  "+ b.name);
+	}
+
+	public static void main(String[] args) {
+		
+		short s = 24;
+		byte b = 5;
+		
+		int i = 0x2____a;
+		byte b1 = 4;
+		
+		
+		Product x= new Product(); x.name = "Café";
+		Product y= new Product(); y.name = "Thé";
+		exchange(x, y); 
+		System.out.println("x = "+x.name + " y = "+y.name);
+		System.out.println(" ==== Je rentre CONSIEMMENT Dans une boucle infinie ");
+//		for (int i = 0; i < 1; ) {
+//			// Infi
+//		}
+
+	}
+
+}

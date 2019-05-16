@@ -1,0 +1,10 @@
+package be.businesstraining.swich_case;
+
+public class Demo_Swich_With_Breaks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

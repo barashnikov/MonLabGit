@@ -1,0 +1,38 @@
+package be.businesstraining.question_2;
+
+import javax.swing.plaf.metal.MetalIconFactory.FolderIcon16;
+
+public class SimpleTypes {
+
+	public static void main(String[] args) {
+
+		int i = 123;
+		int annee = 123_123_000;
+		long l = 1234L;
+
+		int j = (int) 1234L;
+
+		byte b1 = 127; // OK puisque 127 tient sur [-128,127]
+		byte b2 = (byte) 128; // Erreur de compilation SI ON NE CASTE PAS car 128 ne tient pas sur [-128,127]
+
+		short s1 = 32767; // OK puisque on est das [-32768, +32767]
+		short s2 = (short) 32768; // Erreur de compilation SI ON NE CASTE PAS
+
+		double d1 = 123.45;
+
+		float f1 = 123.45F;
+
+		float f2 = (float) 1245.67;
+		
+		int ii1 =  (int)123.82;
+		
+		// Question n 
+		byte bb1 = 4;
+		byte bb3 = (byte)(bb1 + 7);
+		
+		
+		System.out.println(ii1);
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package be.businesstraining.question_42;
+
+class Product {
+	String name = "Café";
+	@Override
+	public String toString() {
+		return "Café";
+	}
+}
+public class Demo_Envoi_Objet {
+
+	public static void main(String[] args) {
+		System.out.println(" Hello : "+new Product());
+
+	}
+
+}

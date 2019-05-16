@@ -1,0 +1,23 @@
+package be.businesstraining.lietterals;
+
+public class DemoLitterals {
+
+	public static void main(String[] args) {
+		
+		int i = 123;
+		
+		long l = 123L;
+		
+		int octal = 012;	
+		
+		int hexa = 0x1000;
+		
+		System.out.println(hexa);
+		
+		double reel = 123.4;
+		
+		float flottant = 1234.6F;
+
+	}
+
+}

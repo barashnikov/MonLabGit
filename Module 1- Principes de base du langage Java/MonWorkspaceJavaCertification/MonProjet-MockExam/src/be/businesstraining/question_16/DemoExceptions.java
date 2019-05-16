@@ -1,0 +1,16 @@
+package be.businesstraining.question_16;
+
+public class DemoExceptions {
+
+	public static void main(String[] args) {
+
+//	 int[] tab = {111, 222};
+//	 int t = tab[3];
+
+		StringBuilder sb = null;
+		sb.append("aaa");
+		System.out.println(sb);
+
+	}
+
+}

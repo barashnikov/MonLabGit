@@ -1,0 +1,6 @@
+package be.businesstraining.interfaces;
+
+public interface Foo {
+	int BAR = 42;
+	void go();
+}

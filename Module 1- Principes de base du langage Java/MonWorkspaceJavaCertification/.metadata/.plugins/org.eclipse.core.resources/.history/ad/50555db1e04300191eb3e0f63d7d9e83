@@ -1,0 +1,10 @@
+package be.businesstraining.static_imports;
+
+public class DemoStaticImports {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

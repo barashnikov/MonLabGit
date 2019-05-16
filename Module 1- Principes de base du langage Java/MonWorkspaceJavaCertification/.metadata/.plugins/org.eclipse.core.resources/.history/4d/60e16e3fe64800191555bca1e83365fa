@@ -1,0 +1,12 @@
+package be.businesstraining.question_27;
+
+public class Question_EqualityStrings {
+
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder("Duke");
+		String st1 = sb.toString();
+		String st2 = "Duke";
+		System.out.println(st1 == st2);
+	}
+
+}

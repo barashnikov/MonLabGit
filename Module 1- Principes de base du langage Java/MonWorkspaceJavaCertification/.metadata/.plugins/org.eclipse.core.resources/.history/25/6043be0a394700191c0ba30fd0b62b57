@@ -1,0 +1,20 @@
+package be.businesstraining.question_16;
+
+public class Employee {
+	String name;
+	boolean contract;
+	double salary;
+
+	public Employee() {
+	}
+
+	public String toString() {
+		return "Employee [name=" + name + ", contract=" + contract + ", salary=" + salary + "]";
+	}
+
+	public  void main(String[] args) {
+        Employee e = new Employee();
+          this.name = "Joe";  // CANNOT USE THIS IN A STATIC CONTEXT ....
+	}
+
+}

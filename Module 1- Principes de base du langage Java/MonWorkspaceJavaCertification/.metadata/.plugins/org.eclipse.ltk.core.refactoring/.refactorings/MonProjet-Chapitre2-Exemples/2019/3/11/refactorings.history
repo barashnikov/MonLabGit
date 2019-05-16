@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;MonProjet-Chapitre2-Exemples&apos;&#x0D;&#x0A;- Original project: &apos;MonProjet-Chapitre2-Exemples&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     be.businesstraining.constructor_chaining.GrandParent.java&#x0D;&#x0A;     be.businesstraining.constructor_chaining.Parent.java" description="Delete elements" element1="/src&lt;be.businesstraining.constructor_chaining{Parent.java" element2="/src&lt;be.businesstraining.constructor_chaining{GrandParent.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1552377676418" subPackages="false" version="1.0"/>
+</session>

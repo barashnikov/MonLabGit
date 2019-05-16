@@ -1,0 +1,5 @@
+package be.businesstraining.constructor_chaining;
+
+public class GrandParent {
+
+}

@@ -1,0 +1,14 @@
+package be.businesstraining.question_3;
+
+public class Question3 {
+
+	public static void main(String[] __A_V_) {
+	
+		for (int i = 0; i < __A_V_.length; i++) {
+			
+			System.out.println(__A_V_[i]);
+			
+		}
+	}
+
+}

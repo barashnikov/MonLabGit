@@ -1,0 +1,16 @@
+package be.businesstraining.question_12;
+
+import java.math.BigDecimal;
+
+public class Compte {
+	
+	private String numero;
+	private BigDecimal solde;
+	
+	
+	public Compte() {
+	}
+	
+	
+
+}

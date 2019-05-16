@@ -1,0 +1,5 @@
+package be.businesstraining.lambda;
+
+import java.util.function.Predicate;
+
+

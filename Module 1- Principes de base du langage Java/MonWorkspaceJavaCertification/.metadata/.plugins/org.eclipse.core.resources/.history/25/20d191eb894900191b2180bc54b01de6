@@ -1,0 +1,13 @@
+package be.businesstraining.question_47;
+
+public class A {
+
+	public  void main(String file) {
+		System.out.println("Hello ....");
+
+	}
+	public static void main(String[] args) {
+		new A().main("aaa");;
+	}
+
+}

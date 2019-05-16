@@ -1,0 +1,29 @@
+package be.businesstraining.init_blocs;
+
+public class Init {
+	
+	public Init() {
+		System.out.println("No-arg Constructor");
+	}
+	public Init(int x) {
+		System.out.println("1-arg Constructor");
+	}
+	static {
+		System.out.println(">>>>> 1st static init");
+	}
+	{
+		System.out.println("***** 1st intance init");
+	}
+	static {
+		System.out.println(">>>>> 2nd static init");
+	}
+	{
+		System.out.println("***** 2nd intance init");
+	}
+	
+
+	public static void main(String[] args) {
+
+	}
+
+}

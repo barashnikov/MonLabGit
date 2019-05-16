@@ -1,0 +1,8 @@
+package be.businesstraining.classes_and_files;
+
+ class Technician {
+
+}
+public class Technician extends Technician{
+	
+}

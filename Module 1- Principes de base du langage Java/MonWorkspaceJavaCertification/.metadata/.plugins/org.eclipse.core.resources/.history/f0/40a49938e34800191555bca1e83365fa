@@ -1,0 +1,13 @@
+package be.businesstraining.question_26;
+
+import java.time.LocalDate;
+
+public class Question_DateTimeFormatter {
+
+	public static void main(String[] args) {
+		LocalDate date3 = LocalDate.parse("2014-06-20");
+		System.out.println(date3);
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package be.businesstraining.question_9;
+
+class Infinity {
+}
+
+public class Beyond extends Infinity {
+	//static Integer i ;
+
+	public static void main(String[] args) {
+		
+		Integer i ;
+		
+		// int sw = (int)(Math.random() * 3);
+		System.out.println(">>> Démarrage ....");
+		int sw = 1;
+		
+//		int aze = Integer.MAX_VALUE;
+//		//aze++;
+//		System.out.println("MAX VALUE + 1 = "+ aze);
+		
+		switch (sw) {
+		case 0: {
+			for (int x = 10; x > 5; x++)				
+				if (x > 10000000)
+					x = 10;
+			break;
+		}
+		case 1: {
+			System.out.println("le int i contient: "+i);
+			int y = 7 * i;
+			break;
+		}
+		case 2: {
+			Infinity inf = new Beyond();
+			Beyond b = (Beyond) inf;
+		}
+		}
+		System.out.println("Fin normale");
+	}
+}

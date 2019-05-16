@@ -1,0 +1,10 @@
+package be.businesstraining.question_15;
+
+public class MultiInt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

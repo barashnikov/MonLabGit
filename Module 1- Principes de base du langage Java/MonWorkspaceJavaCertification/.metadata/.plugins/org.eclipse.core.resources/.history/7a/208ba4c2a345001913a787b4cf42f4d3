@@ -1,0 +1,23 @@
+package be.businesstraining.swich_case;
+
+enum Day {
+	LUNDI, MARDI, MERCREDI, JEUDI, VENDREDI, SAMEDI, DIMANCHE
+}
+
+public class Demo_Swich_With_Breaks {
+
+	public static void main(String[] args) {
+
+		Day d = Day.DIMANCHE;
+
+		switch (d) {
+		case LUNDI :
+		case MARDI:
+		case MERCREDI:
+			System.out.println("C'est en milieu de semaine, on travaille ....");
+		//	break;
+			default : System.out.println("C'est le Week end, on se repose ....");
+		}
+	}
+
+}

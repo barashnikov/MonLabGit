@@ -1,0 +1,7 @@
+package be.businesstraining.lambda;
+
+import java.util.function.Predicate;
+
+public class MyPredicate  implements Predicate<Integer>{
+
+}

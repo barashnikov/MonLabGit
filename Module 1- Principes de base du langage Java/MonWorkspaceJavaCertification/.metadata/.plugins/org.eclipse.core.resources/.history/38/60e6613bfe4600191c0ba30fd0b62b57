@@ -1,0 +1,13 @@
+package be.businesstraining.egalité;
+
+public class Demo_Egalite {
+
+	public static void main(String[] args) {
+		
+		int i1 = 1000;
+		int i2 = 1000;
+		System.out.println(i1==i2);
+
+	}
+
+}

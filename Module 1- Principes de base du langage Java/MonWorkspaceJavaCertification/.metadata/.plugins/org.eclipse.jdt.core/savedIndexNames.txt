@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+D:\0\0 Business Training 2019\MonWorkspaceJavaCertification\.metadata\.plugins\org.eclipse.jdt.core
+2338945048.index
+2346535485.index
+1761694020.index
+2184636999.index
+1626009918.index
+1679761667.index
+2260941434.index
+1421986462.index

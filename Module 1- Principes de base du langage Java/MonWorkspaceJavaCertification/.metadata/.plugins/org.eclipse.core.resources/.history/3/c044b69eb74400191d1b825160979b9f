@@ -1,0 +1,10 @@
+package be.businesstraining.question_12;
+
+public class House {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

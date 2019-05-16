@@ -1,0 +1,25 @@
+package be.businesstraining.static_imports;
+
+import static java.lang.Math.PI;
+import static java.lang.Math.sqrt;
+
+import static java.lang.Integer.MAX_VALUE;
+import static java.lang.Double.MAX_VALUE;
+
+public class DemoStaticImports {
+
+	public static void main(String[] args) {
+		
+		double pi = PI;
+		
+		double racine = sqrt(25);
+		
+		int maxint = MAX_VALUE;
+		
+		double maxreel = Double.MAX_VALUE;
+		
+		
+
+	}
+
+}

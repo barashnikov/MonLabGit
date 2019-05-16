@@ -1,0 +1,15 @@
+package be.businesstraining.strings;
+
+public class Demo_Strings {
+
+	public static void main(String[] args) {
+		
+		String st = "Java";
+		
+		st= st.concat(" Rules ");
+		
+		System.out.println(st);
+
+	}
+
+}

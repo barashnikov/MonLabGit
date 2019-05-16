@@ -1,0 +1,11 @@
+package be.businesstraining.question_14;
+
+interface FrogBoilable {
+
+}
+
+public class DontBoilFrogs {
+	public static void main(String[] args) {
+
+	}
+}

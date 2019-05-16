@@ -1,0 +1,12 @@
+package be.businesstraining.question_37;
+
+public class String_Trim {
+
+	public static void main(String[] args) {
+		String str = " ";
+		 str.trim();
+		System.out.println("Résultat : "+ str + " Taille : "+blanc.length());
+
+	}
+
+}

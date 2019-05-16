@@ -1,0 +1,22 @@
+package be.businesstraining.question_9;
+
+
+class Tree {}
+public class RedWood extends Tree{
+
+	public static void main(String[] args) {
+		new RedWood().go();
+		System.out.println(" Fin normale ....s");
+
+	}
+	public void go() {
+		go2(new RedWood(), new RedWood());
+		//go2((RedWood)new Tree(), new RedWood());  //Bug here!!
+		
+	}
+	public void go2(Tree t1, RedWood r1) {
+		RedWood r2 = (RedWood)  t1;    // Risky code
+		Tree t2 = (Tree) r1;
+	}
+
+}

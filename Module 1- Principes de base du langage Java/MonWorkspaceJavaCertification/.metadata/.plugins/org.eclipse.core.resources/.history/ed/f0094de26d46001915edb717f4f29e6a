@@ -1,0 +1,62 @@
+package be.businesstraining.strings;
+
+enum Day {
+	LUNDI, MARDI, MERCREDI, JEUDI, VENDREDI, SAMEDI, DIMANCHE
+}
+
+public class Demo_Swich_With_Breaks {
+
+	public static void main(String[] args) {
+
+		Day d = Day.DIMANCHE;
+
+		switch (d) {
+		case LUNDI:
+		case MARDI:
+		case MERCREDI:
+			System.out.println("C'est en milieu de semaine, on travaille ....");
+			// break;
+		default:
+			System.out.println("C'est le Week end, on se repose ....");
+		}
+
+		for (int i = 0; i < args.length; i++) {
+
+		}
+
+		// int [] tab = new int[] {11,22};
+
+		int[][] twoDee = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+		for (int i = 0; i < twoDee.length; i++) {
+			
+			for (int j = 0; j < twoDee.length; j++) {
+				System.out.println(twoDee[i][j]);
+			}
+
+		}
+
+		for (String interator : args) {
+
+		}
+
+		int selecteur = 11;
+		final int a = 80;
+		final int b = 90;
+		// b = 90;
+
+		switch (selecteur) {
+		case a:
+			break;
+		case b:
+			break;
+		case 30:
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}

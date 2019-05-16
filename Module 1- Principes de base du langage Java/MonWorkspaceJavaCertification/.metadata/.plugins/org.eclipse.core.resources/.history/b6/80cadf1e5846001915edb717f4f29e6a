@@ -1,0 +1,17 @@
+package be.businesstraining.question_9;
+
+class Infinity { }
+4. public class Beyond extends Infinity {
+5.   static Integer i;
+6.   public static void main(String[] args) {
+7.     int sw = (int)(Math.random() * 3);
+8.     switch(sw) {
+9.       case 0: {  for(int x = 10; x > 5; x++)
+10.                    if(x > 10000000) x = 10;
+11.                  break; }
+12.       case 1: {  int y = 7 * i;  break;  }
+13.       case 2: {  Infinity inf = new Beyond();
+14.                  Beyond b = (Beyond)inf;  }
+15.     }
+16.   }
+17. }

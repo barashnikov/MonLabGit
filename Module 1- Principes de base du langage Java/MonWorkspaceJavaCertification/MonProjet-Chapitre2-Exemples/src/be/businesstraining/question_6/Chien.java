@@ -1,0 +1,28 @@
+package be.businesstraining.question_6;
+
+class Animal {
+	public void respirer() {
+		System.out.println("Je respire !");
+	}
+}
+public class Chien extends Animal {
+	public void aboyer ()
+	 {
+		System.out.println("J'aboie ...");
+	 }
+	
+	public static void main(String[] args) {
+	
+		Animal a1 = new Animal();
+		
+		Chien c1 = new Chien();		
+		Animal a2  = new Chien();
+		
+		//c1.aboyer();
+		((Chien) a2).aboyer();
+		
+		
+		
+	}
+}
+

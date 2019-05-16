@@ -1,0 +1,21 @@
+package be.businesstraining.init_blocs;
+
+public class Product {
+	
+	private String name;
+
+	public Product() {
+	}
+	
+	static {		
+	}
+	
+	{	name= "Cafe";	}
+	
+	@Override
+	public String toString() {
+	
+		return super.toString();
+	}
+
+}

@@ -1,0 +1,18 @@
+package be.businesstraining.question_4;
+
+enum Animals {
+	
+	DOG,
+	CAT,
+	FISH;
+	
+	
+}
+
+public class TestEnum {
+	 static Animals a;
+	public static void main(String[] args) {
+		System.out.println(a.DOG +  " - "+ a.FISH);
+	}
+
+}

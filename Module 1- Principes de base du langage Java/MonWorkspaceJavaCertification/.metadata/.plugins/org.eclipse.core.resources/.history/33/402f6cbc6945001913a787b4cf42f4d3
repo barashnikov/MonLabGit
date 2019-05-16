@@ -1,0 +1,18 @@
+package be.businesstraining.lietterals;
+
+public class Person {
+	
+	private int age ;
+	
+	public void doSomething() {
+		int age = 11;
+		
+		System.out.println(age);
+	}
+	public static void main(String[] args) {
+		new Person().doSomething();
+	}
+	
+	
+
+}

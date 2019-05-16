@@ -1,0 +1,23 @@
+package be.businesstraining.question_16;
+
+interface MyInterface {
+	default int doStuff() {
+		return 42;
+	}
+}
+public class IFaceTest implements MyInterface {
+
+	public static void main(String[] args) {
+        new IFaceTest().go();
+	}
+	
+	 void go() {
+		System.out.println(MyInterface.super.doStuff());
+		
+	}
+
+	public int doStuff() {
+		return 43;
+	}
+
+}

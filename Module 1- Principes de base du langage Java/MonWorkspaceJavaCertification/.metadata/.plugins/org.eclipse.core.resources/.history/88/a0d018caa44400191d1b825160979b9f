@@ -1,0 +1,36 @@
+package be.businesstraining.constructor_chaining;
+
+class GrandParent {
+	
+//	protected  String nom;
+
+	public GrandParent() {
+		//super();
+		System.out.println(" ****** Dans le constructeur du GRAND PARENT");
+	}
+
+}
+
+class Parent extends GrandParent{
+//	protected int age;
+	
+	public Parent() {
+		//super();
+		System.out.println(" ====== Dans le constructeur du PARENT");
+	}
+}
+
+public class Fils  extends Parent{
+//	protected String adresse;
+	public Fils() {
+		//super();
+		System.out.println(" >>>>>> Dans le constructeur du FILS");
+
+	}
+
+	public static void main(String[] args) {
+        Fils fils =  new Fils();
+      //  fils.
+	}
+
+}

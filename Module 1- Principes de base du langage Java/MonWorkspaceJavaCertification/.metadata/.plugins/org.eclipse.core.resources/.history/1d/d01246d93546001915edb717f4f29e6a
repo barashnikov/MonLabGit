@@ -1,0 +1,10 @@
+package be.businesstraining.object_comparaison;
+
+public class DemoObjectComparaison {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

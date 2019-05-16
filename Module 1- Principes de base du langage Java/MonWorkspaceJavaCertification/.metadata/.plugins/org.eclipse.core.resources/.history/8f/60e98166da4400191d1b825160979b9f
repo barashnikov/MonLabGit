@@ -1,0 +1,21 @@
+package be.businesstraining.init_blocs;
+
+public class Product {
+	
+	private int code;
+	private boolean available;
+	private char category;
+
+	
+	public static void main(String[] args) {
+		
+		System.out.println(new Product());
+	}
+
+
+	@Override
+	public String toString() {
+		return "Product [code=" + code + ", available=" + available + ", category=" + category + "]";
+	}
+	
+}

@@ -1,0 +1,12 @@
+package be.businesstraining.question_6;
+
+public class StringBuilder_String {
+
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder(5);
+		String s = "";
+	System.out.println(s == sb);
+
+	}
+
+}

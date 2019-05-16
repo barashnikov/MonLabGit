@@ -1,0 +1,20 @@
+package be.businesstraining.question_9;
+
+public class Spock {
+
+	public static void main(String[] args) {
+		int mask = 9;
+		int count = 0;
+		
+		if( 
+			((5<7) || (++count<10) ) 
+			|
+			mask++ <10
+		) 
+		mask = mask + 1;
+		
+		System.out.println("Mask : "+ mask + " Count: "+count);
+
+	}
+
+}

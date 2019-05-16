@@ -1,0 +1,22 @@
+package be.businesstraining.question_15;
+
+//import java.io.IOException;
+
+public class Frisbee {
+
+//	public static void main(String[] args) {
+	public static void main(String[] args)  {
+		int x= 0;
+		System.out.println(7/x);
+		
+		go();
+
+	}
+
+private static void go() {
+	System.out.println("Dans Go ....");
+	 throw new NullPointerException();
+	
+}
+
+}

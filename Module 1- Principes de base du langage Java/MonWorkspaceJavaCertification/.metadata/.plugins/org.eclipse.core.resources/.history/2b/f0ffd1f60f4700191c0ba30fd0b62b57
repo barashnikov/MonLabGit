@@ -1,0 +1,11 @@
+package be.businesstraining.question_3;
+
+public class CharsDemo {
+
+	public static void main(String[] args) {
+		char c = 0x4e;
+		System.out.println(c);
+
+	}
+
+}
